@@ -38,8 +38,9 @@ html{
     min-height: 75px;
     margin: 30px;
     display: flex;
-    justify-content: end;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
     color: black;
 }
 
@@ -83,3 +84,19 @@ button.nums{
     
 }
 
+button:hover{
+    transform: scale(1.1);
+
+}
+
+button{
+    transition: 0.3ms ease-in;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current{
+    font-size: 30px;
+}
